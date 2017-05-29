@@ -1,0 +1,391 @@
+@import url("main.css");
+@import url("menu.css");
+/*
+ * we start with the top to bottom, left to right. ;)
+ */
+ 
+ /*sidebar*/
+ .profile-sidebar{
+	 border:1px solid rgba(0,0,0,0.1);
+	 background-color:#ffffff;
+ }
+ 
+ .profile-sidebar ul{
+	 margin:0;
+	 padding:0;
+	 list-style-type:none;
+ }
+ 
+ .profile-sidebar li{
+	 border-bottom:1px solid rgba(0,0,0,.1);
+ }
+ 
+ .profile-sidebar li:last-child{
+	 border-bottom: none !important;
+ }
+ 
+ .profile-sidebar a{
+	 display:block;
+	 width:100%;
+	 height:100%;
+	 padding:15px 15px;
+	 color: rgba(0,0,0,0.7);
+	 	  font-size:13.5px;
+ 
+ }
+ 
+ .profile-sidebar .active a, .profile-sidebar a:hover{
+	 border-right:5px solid #ca080f !important;
+	  color:#ca080f;
+}
+ 
+ .profile-sidebar .icon{
+	 font-size:18px;
+	 margin-right:5px;
+ }
+
+
+ /*profile details*/
+ .profile-info{
+
+ }
+
+.box .inside{
+	background-color:#ffffff;
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius:2px;
+}
+
+.box .little-head-title{
+	font-size:20px;
+
+}
+.box .title-breadcrumb{
+	border-left:1px solid rgba(0,0,0,0.5);
+	font-size:16px;
+	color:rgba(0,0,0,0.6);
+	margin-left:5px;
+	padding:0 5px;
+}
+
+.profile-info .header{
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	margin-bottom:1px;
+}
+
+
+.profile-info .header h3{
+	margin:0;
+	font-weight: 300 !important;
+	padding:10px 5px 5px 10px;
+	border-left:3px solid #ca080f;
+	width: auto;
+}
+
+.profile-info .header .icon{
+	color:#ca080f;
+	font-size:28px;
+	margin-right:5px;
+}
+
+.profile-info .header a{
+	float:right;
+}
+
+.profile-info .body{
+	padding:10px 10px 7px 10px;
+	position:relative;
+}
+
+.profile-info .n-o-k{
+	background-color:#fbfbfb;
+	border:1px solid rgba(0,0,0,0.1);
+	margin-top:10px;
+}
+
+.profile-info .n-o-k .little-head-title{
+	font-size:20px;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	padding:10px 5px 5px 10px;
+}
+
+.profile-info input{
+	margin:10px 5px;
+}
+.profile-info .foot{
+	background-color:#fafafa;
+	border-top:1px solid rgba(0,0,0,0.1);
+	padding:5px;
+}
+
+/*body details*/
+.profile-info .h-display{
+	margin:1px 0 15px 0;
+}
+
+.h-display img{
+	border-right:1px solid rgba(0,0,0,0.1);
+}
+
+
+.profile-info .details{
+	padding:10px 5px 5px 10px;
+}
+
+.profile-info .the-name{
+	font-size:20px;
+	color:rgba(0,0,0,0.8);
+}
+
+.profile-info .the-address,.profile-info .the-email, .profile-info .the-phone{
+	font-size:14px;
+	color:rgba(0,0,0,0.6);
+	font-weight:lighter;
+	margin:1px 0 !important;
+}
+
+.profile-info .more a{
+	font-size:7px !important;
+	color:rgba(0,0,0,0.7);
+	text-align:right;
+//	float:right;
+	padding:10px 5px;
+	position:relative;
+	top:10px;
+}
+
+.profile-info .more a:hover{
+	color:#ca080f;
+}
+
+.profile-info .short-menu{
+	background-color:#ffffff;
+	border-radius:2px;
+	box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
+	position:absolute;
+	font-size:12px;
+	border:1px solid rgba(0,0,0,0.1);
+	left:-30px;
+	top:35px;
+	min-width:100px;
+}
+
+.profile-info .short-menu:before{
+	content: "";
+	position: absolute;
+	top: -8%;
+	left: 45%;
+	background-color:#ffffff;
+	height: 10px;
+	width: 10px;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	border-left: 1px solid rgba(0,0,0,0.2);
+	transform: rotate(45deg);
+	z-index:1;
+}
+
+.profile-info .short-menu ul{
+	list-style-type: none;
+	margin:0;
+	padding:0 !important;
+}
+
+.profile-info .short-menu li{
+	display:block;
+	margin:0;
+}
+.profile-info .short-menu a{
+	display:block;
+	font-size:inherit !important;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	padding:10px 10px 5px 10px;
+	top:0;
+	width:100%;
+}
+
+.profile-info .short-menu li:last-child a {
+	border-bottom:none;
+}
+
+.profile-info .short-menu .icon{
+	font-size:15px;
+	margin-right:3px;
+}
+
+/*profile menu sub header*/
+.profile-info .sub-header a{
+	display:block;
+	color:#454545 !important;
+	text-align: center;
+	padding:10px 5px;
+	border-right:1px solid rgba(0,0,0,0.2);
+}
+.profile-info .sub-header .col:last-child a {
+	border-right:none;
+}
+.profile-info .sub-header .active {
+	border-bottom:3px solid #ca080f;
+}
+
+/*INFORMATION PART OF ADVANCED VIEW*/
+.profile-info .advanced-show{
+	display: none;
+}
+
+.profile-info .information{
+	border:1px solid rgba(0,0,0,0.1);
+	background-color: #fcfcfc;
+	margin:10px 0;
+	border-left:3px solid transparent;
+}
+
+.profile-info .information .header{
+	padding:10px 5px 7px 10px;
+	font-weight:lighter;
+}
+
+.profile-info .information .header p{
+	margin:0 !important;
+
+}
+
+.profile-info .information ul{
+	list-style-type: none;
+}
+
+.profile-info .information li{
+	border-bottom:1px solid rgba(0,0,0,0.1);
+}
+.profile-info .information li:last-child{
+	border-bottom:none;
+}
+
+.profile-info .information li p{
+	padding:10px 5px 1px 10px;
+}
+
+.profile-info .information p .actions{
+	display: block;
+}
+.profile-info .information p a{
+	margin-right:10px;
+	font-size:16px;
+	color:inherit !important;
+	text-decoration: underline;
+}
+
+.profile-info .allergies{
+	border-left-color:rgb(219, 165, 36);
+}
+
+.profile-info .medical-condition{
+	border-left-color:rgb(203, 81, 61);;
+}
+
+.profile-info .childhood{
+	border-left-color:rgb(22, 135, 173);
+}
+
+.profile-info .family-history{
+	border-left-color:rgb(131, 167, 35);
+}
+
+/*security info*/
+.profile-info .security-info{
+
+}
+
+.security-info .information{
+	border-left:1px solid rgba(0,0,0,0.1);
+}
+
+.security-info .information .body{
+	padding:0;
+}
+
+.security-info .levels{
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	position:relative;
+	background-image:linear-gradient(to left, #f7f7f7,#fdfdfd);
+	border-left:1px solid rgba(0,0,0,.1);
+	border-right:1px solid rgba(0,0,0,0.1);
+}
+
+
+.security-info .levels:last-child{
+	border-bottom:none;
+}
+
+.security-info .levels p{
+	padding:3px 5px;
+}
+.security-info .levels .little-head-title{
+	padding:10px 3px 3px 5px;
+}
+.security-info .levels .icon-area{
+	display:block;
+
+}
+.security-info .levels .icon,.security-info .levels input{
+	font-size:30px;
+	text-align:center;
+	//display:block;
+	position:absolute;
+	top:50%;
+	color:#ca080f;
+	margin: 100% 1px 1px 5px;
+}
+
+
+/*MEDICAL HISTORY PART */
+.history-grid{
+
+}
+
+.history-grid .box{
+	padding:0px 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.history-grid .box .inside{
+
+}
+
+.history-grid .box .inside .icon {
+	font-size:100px;
+	display:block;
+	text-align:center;
+	padding:10px 5px;
+}
+.history-grid .box .inside span {
+display:block;
+	text-align: center;
+	padding:10px 5px;
+	border-top:1px solid rgba(0,0,0,0.1);
+	background-color:#fafafa;
+	font-weight:600;
+	font-size:17px;
+}
+
+/*down rules*/
+@media (min-width: 948px) {
+	.profile-sidebar{
+		position:relative;
+		border:none;
+	}
+	.profile-sidebar ul {
+		position:fixed;
+		background:#ffffff;
+		width:17%;
+		border:1px solid rgba(0,0,0,0.1);
+	}
+
+}
+
+@media (max-width: 768px){
+	.profile-info .h-display img{
+		border-right:none;
+		border-bottom:1px solid rgba(0,0,0,0.1);
+	}
+}
